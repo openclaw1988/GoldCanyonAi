@@ -40,10 +40,10 @@ export function Footer() {
               ready-to-deploy templates. Built in Arizona, deployed everywhere.
             </p>
             <a
-              href="mailto:hello@goldcanyonai.com"
+              href="mailto:contact@goldcanyonai.com"
               className="text-gold hover:text-gold-light text-sm transition-colors"
             >
-              hello@goldcanyonai.com
+              contact@goldcanyonai.com
             </a>
           </div>
 

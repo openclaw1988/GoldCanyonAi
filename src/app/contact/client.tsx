@@ -287,10 +287,10 @@ export default function ClientContactPage() {
                       Reach out directly to discuss your project.
                     </p>
                     <a
-                      href="mailto:hello@goldcanyonai.com"
+                      href="mailto:contact@goldcanyonai.com"
                       className="inline-flex items-center gap-2 text-navy font-semibold hover:text-navy-dark transition-colors"
                     >
-                      hello@goldcanyonai.com
+                      contact@goldcanyonai.com
                       <ArrowRight className="w-4 h-4" />
                     </a>
                   </div>
