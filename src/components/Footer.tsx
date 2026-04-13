@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const solutions = [
   { name: "Gold Canyon Resale Toolkit", href: "/services/resale" },
@@ -28,9 +29,13 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-gold rounded-lg flex items-center justify-center">
-                <span className="text-navy-dark font-bold text-sm">GC</span>
-              </div>
+              <Image
+                src="/logo.jpg"
+                alt="Gold Canyon AI"
+                width={36}
+                height={36}
+                className="w-9 h-9 rounded-lg object-cover"
+              />
               <span className="text-lg font-bold">
                 Gold Canyon <span className="text-gold">AI</span>
               </span>
